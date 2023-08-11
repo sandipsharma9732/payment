@@ -1,0 +1,54 @@
+/* Your CSS styles can go here */
+
+/* Example styling for the subscription page */
+.subscription-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #1e4d91;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .plan {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .plan h2 {
+    color: #1e4d91;
+  }
+  
+  .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1e4d91;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #1e4d91;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #153c73;
+  }
+  
